@@ -1,12 +1,18 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: antiquewhite;
 }
+
+img{
+padding-top: 20px;
+}
+
 .row {
  padding: 10px;
 }
 
 .icon {
-  color: #ef8172;
+  color: cornflowerblue;
   margin-bottom: 1rem;
 }
 
@@ -14,12 +20,13 @@ body {
   color: #ff4c68;
 }
 
-.btn:hover {
-  visibility: hidden;
-
-}
 
 .btn {
-  visibility:visible;
+ border: none;
+  border-radius: 40px;
+}
 
+
+hr {
+  width: 30%;
 }
