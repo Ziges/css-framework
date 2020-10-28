@@ -2,31 +2,25 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: antiquewhite;
 }
-
-img {
-  padding-top: 20px;
-}
-
-.row {
+body .row {
   padding: 10px;
 }
-
-.icon {
+body .row img {
+  padding-top: 20px;
+}
+body .row .icon {
   color: cornflowerblue;
   margin-bottom: 1rem;
 }
-
-.icon:hover {
+body .row .icon :hover {
   color: #ff4c68;
 }
-
-.btn {
+body .row hr {
+  width: 30%;
+}
+body .row .btn {
   border: none;
   border-radius: 40px;
-}
-
-hr {
-  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */

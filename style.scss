@@ -1,32 +1,30 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: antiquewhite;
+
+  .row {
+      padding: 10px;
+
+      img {
+        padding-top: 20px;
+      }
+
+      .icon {
+        color: cornflowerblue;
+        margin-bottom: 1rem;
+          :hover {
+          color: #ff4c68;
+        }
+      }
+
+      hr {
+        width: 30%;
+      }
+
+      .btn {
+        border: none;
+        border-radius: 40px;
+      }
+    }
 }
 
-img{
-padding-top: 20px;
-}
-
-.row {
- padding: 10px;
-}
-
-.icon {
-  color: cornflowerblue;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
-
-
-.btn {
- border: none;
-  border-radius: 40px;
-}
-
-
-hr {
-  width: 30%;
-}
