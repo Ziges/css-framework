@@ -1,0 +1,25 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.row {
+ padding: 10px;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.btn:hover {
+  visibility: hidden;
+
+}
+
+.btn {
+  visibility:visible;
+
+}
