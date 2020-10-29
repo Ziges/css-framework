@@ -1,7 +1,7 @@
 # css-frameworks
 https://ziges.github.io/css-framework/
 
-##The task
+## The task
 In this exercise I learnt to use the bootstrap front-end library to create a nice card layout using bootstrap responsive grids. 
 The idea behind this challenge was to leverage the bootstrap framework (v4.5.3) as much as possible and keep any use of CSS to a minimum.
 
@@ -20,5 +20,5 @@ The inner structure of each card consists of:
 
 5. Lastly, the cards are responsive meaning they stack according to screen size, for a more pleasant reading experience. 
 
-#####I'm excited to use another framework like tailwind for this exercise. 
+##### I'm excited to use another framework like tailwind for this exercise. 
 
