@@ -4,6 +4,11 @@ body {
 }
 body .row {
   padding: 10px;
+  margin: 10px;
+}
+body .row .card {
+  padding: 10px;
+  margin: 10px;
 }
 body .row img {
   padding-top: 20px;
@@ -21,6 +26,11 @@ body .row hr {
 body .row .btn {
   border: none;
   border-radius: 40px;
+}
+@media (max-width: 768px) {
+  body .navbar {
+    visibility: hidden;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

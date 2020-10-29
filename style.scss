@@ -2,29 +2,44 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: antiquewhite;
 
+
   .row {
+    padding: 10px;
+    margin: 10px;
+
+    .card {
       padding: 10px;
+      margin: 10px;
+    }
 
-      img {
-        padding-top: 20px;
-      }
+    img {
+      padding-top: 20px;
+    }
 
-      .icon {
-        color: cornflowerblue;
-        margin-bottom: 1rem;
-          :hover {
-          color: #ff4c68;
-        }
-      }
+    .icon {
+      color: cornflowerblue;
+      margin-bottom: 1rem;
 
-      hr {
-        width: 30%;
-      }
-
-      .btn {
-        border: none;
-        border-radius: 40px;
+      :hover {
+        color: #ff4c68;
       }
     }
+
+    hr {
+      width: 30%;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      visibility: hidden;
+    }
+  }
 }
+
 
